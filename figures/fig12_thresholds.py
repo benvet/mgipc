@@ -49,11 +49,9 @@ degree_colors = cmap(data_color)
 gamma = 60
 beta = 0.4
 max_deg = 7
-test_length = '5e4'
 
 fmt = 'eps'
 
-#path = '../analog/phi_sweep_gamma'+str(gamma)+'_beta'+str(beta).replace('.','-')+'_long/results/test'+test_length+'/threshold/'
 path = '../data/capacities/phi_sweep_gamma'+str(gamma)+'_beta'+str(beta).replace('.','-')+'_long/results/threshold/'
 
 fig = plt.figure()
